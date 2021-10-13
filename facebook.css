@@ -1,0 +1,100 @@
+body{
+    background-color: #f1f1f1;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(10, 82, 110);
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: none;
+    color: black;
+}
+
+.flex-container{
+    display: flex;
+    transform: translate(0px,100px);
+}
+
+.card1{
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 70px;
+    float: left;
+    width: 170px;
+    border: 1px solid #ccc;
+}
+
+.card2{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 170px;
+    height: 240px;
+    border: 1px solid #ccc;
+}
+
+.left{
+    /* border: 2px solid green; */
+    flex: 50%;
+    margin: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.right{
+    /* border: 2px solid blue; */
+    flex: 50%;
+    margin-left: 80px;
+    margin-right:150px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+form{
+    margin: 30px;
+    display: inline-block;
+    font-size: 17px;
+}
+hr{
+    width: 300px;
+}
+input{
+    width: 370px;
+    padding: 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    border-width: 1px;
+    border: 1px solid #ccc;
+}
+.sub{
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.button{
+    margin-left: 80px;
+    padding: 15px 40px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(25, 182, 25);
+    color: white;
+    font-weight: bold;
+}
+p{
+    margin-left: 80px;
+}
